@@ -1,0 +1,3 @@
+Credencias do Git
+ git config --global user.name "cleysonalves28" 
+ git config --global user.email "calves_nascimento@hotmail.com" 
