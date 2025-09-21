@@ -1,3 +1,15 @@
 Credencias do Git
  git config --global user.name "cleysonalves28" 
  git config --global user.email "calves_nascimento@hotmail.com" 
+
+ Comandos para teclado:
+   await page.press('[data-test="username"]', 'Tab')
+   await page.locator('[name="q"]', 'Enter')
+
+
+   await page.waitForTimeout(2000)
+
+   npx playwright test lista_voos.spec.js
+   npx playwright test cadastro_novo_usuario.spec.js
+   npx playwright test realizar_login.spec.js
+   
